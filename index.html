@@ -1,136 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VISHAL PORTPPOLIO WEBSITE</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
-    integrity="">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity=""
+    />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="logo">
-            <img src="img/frontend.png" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>          
-        </button>
+      <div class="logo">
+        <img src="img/frontend.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
 
-        <!-- navigation bar -->
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#myservices" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#mywork" class="nav__link">My Work</a></li>
-
-            </ul>
-        </nav> 
+      <!-- navigation bar -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#myservices" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#mywork" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- introduction -->
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong> vishal!</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro"> 
-            software developer
-        </p>
-        <img src="img/vishal.jpg" alt="vishal image" class="intro__img">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong> vishal!</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        software developer
+      </p>
+      <img src="img/vishal.jpg" alt="vishal image" class="intro__img" />
     </section>
-
 
     <!-- my sevices -->
     <section class="my_services" id="services">
-        <h2 class="section_tilte_services"> what i do</h2>
+      <h2 class="section__title section__tilte--services">What i do</h2>
+      <div class="services">
         <div class="services">
-            <h3> frontend development</h3>
-            <p>
-                A front end web developer is the person who implements web designs through coding languages like HTML,
-                CSS, and JavaScript. Though it’s not as common anymore, front end developers are/were sometimes called
-                “client-side developers” to distinguish them from back end developers who program what goes on behind
-                the scenes (like databases).
-            </p>
-
+          <h3>frontend development</h3>
+          <p>
+            A front end web developer is the person who implements web designs
+            through coding languages like HTML, CSS, and JavaScript. Though it’s
+            not as common anymore, front end developers are/were sometimes
+            called “client-side developers” to distinguish them from back end
+            developers who program what goes on behind the scenes (like
+            databases).
+          </p>
         </div>
-    </section>
-    <div class="services">
-        <h3> android development </h3>
-        <p>
-            development kit (SDK), while using other languages is also possible. All non-JVM languages, such as Go,
-            JavaScript, C, C++ or assembly, need the help of JVM language code, that may be supplied by tools, likely
-            with restricted API support. Some programming languages and tools allow cross-platform app support (i.e. for
-            both Android and iOS). Third party tools, development environments, and language.
-        </p>
 
-    </div>
-    </section>
-    <div class="services">
-        <h3> Data Structures and Algorithms </h3>
-        <p>
-            A data structure is a named location that can be used to store and organize data. And, an algorithm is a
-            collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write
-            efficient and optimized computer programs.
-        </p>
+        <div class="services">
+          <h3>android development</h3>
+          <p>
+            development kit (SDK), while using other languages is also possible.
+            All non-JVM languages, such as Go, JavaScript, C, C++ or assembly,
+            need the help of JVM language code, that may be supplied by tools,
+            likely with restricted API support. Some programming languages and
+            tools allow cross-platform app support (i.e. for both Android and
+            iOS). Third party tools, development environments, and language.
+          </p>
+        </div>
 
-    </div>
-    <a href="work" class="btn">My work</a>
+        <div class="services">
+          <h3>Data Structures and Algorithms</h3>
+          <p>
+            A data structure is a named location that can be used to store and
+            organize data. And, an algorithm is a collection of steps to solve a
+            particular problem. Learning data structures and algorithms allow us
+            to write efficient and optimized computer programs.
+          </p>
+        </div>
+      </div>
+      <a href="work" class="btn">My work</a>
     </section>
-    
 
     <!-- about me section -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am </h2>
-        <p class="section__subtitle section__subtitle--about"></p>
-        <div class="about-me__body">
-            <p></p>
-            <p></p>
-        </div>
-        <img src="img/computer.jpg" alt="java learning against the bus">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about"></p>
+      <div class="about-me__body">
+        <p></p>
+        <p></p>
+      </div>
+      <img src="img/computer.jpg" alt="java learning against the bus" />
     </section>
-
 
     <!-- my work -->
 
     <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle"></p>
-        <div class="portpolio">
-            <a href="a" class="portpolio__item">
-                <img src="img/backend.jpg" alt="" class="portpolio__img">
-            </a>
-            <a href="a" class="portpolio__item">
-                <img src="img/backend.jpg" alt="" class="portpolio__img">
-            </a>
-            <a href="a" class="portpolio__item">
-                <img src="img/backend.jpg" alt="" class="portpolio__img">
-            </a>
-            <a href="a" class="portpolio__item">
-                <img src="img/backend.jpg" alt="" class="portpolio__img">
-            </a>
-            <a href="a" class="portpolio__item">
-                <img src="img/backend.jpg" alt="" class="portpolio__img">
-            </a>
-        </div>
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle"></p>
+      <div class="portpolio">
+        <a href="a" class="portpolio__item">
+          <img src="img/backend.jpg" alt="" class="portpolio__img" />
+        </a>
+        <a href="a" class="portpolio__item">
+          <img src="img/backend.jpg" alt="" class="portpolio__img" />
+        </a>
+        <a href="a" class="portpolio__item">
+          <img src="img/backend.jpg" alt="" class="portpolio__img" />
+        </a>
+        <a href="a" class="portpolio__item">
+          <img src="img/backend.jpg" alt="" class="portpolio__img" />
+        </a>
+        <a href="a" class="portpolio__item">
+          <img src="img/backend.jpg" alt="" class="portpolio__img" />
+        </a>
+      </div>
     </section>
-  
 
     <footer>
-        <a href="mailto:vishalingle782@gmail.com" class="footer__link">contact me</a>
-        <ul>
-            <li class="social-list__item"><a href="#linkedin" class="social-list__links">linkedin</a></li>
-            <li class="social-list__item"><a href="#twitter" class="social-list__links">twitter</a></li>
-            <li class="social-list__item"><a href="#instagram" class="social-list__links">instagram</a></li>
-            <li class="social-list__item"><a href="#github" class="social-list__links">github</a></li>
-            <li class="social-list__item"><a href="#facebook" class="social-list__links">facebook</a></li>
-        </ul>
+      <a href="mailto:vishalingle782@gmail.com" class="footer__link"
+        >contact me</a
+      >
+      <ul>
+        <li class="social-list__item">
+          <a href="#linkedin" class="social-list__links">linkedin</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#twitter" class="social-list__links">twitter</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#instagram" class="social-list__links">instagram</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#github" class="social-list__links">github</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#facebook" class="social-list__links">facebook</a>
+        </li>
+      </ul>
     </footer>
-</body>
-
+  </body>
 </html>
