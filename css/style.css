@@ -195,7 +195,6 @@ nav {
 
 /* about me */
 
-
 .about-me {
   max-width: 1000px;
   margin: 0 auto;
@@ -213,9 +212,8 @@ nav {
       "subtitle img"
       "text img";
     grid-column-gap: 2em;
-
   }
-  .section__title__about {
+  .section__title--about {
     grid-area: title;
   }
 
@@ -224,16 +222,13 @@ nav {
     grid-row: 2;
     position: relative;
     left: -1em;
-    width: calc(100%+2em);
+    width: calc(100% + 2em);
     padding-left: 1em;
-    padding-right: calc(200px+4em);
+    padding-right: calc(200px + 4em);
   }
 
   .about-me__img {
     grid-area: img;
     position: relative;
-    
-
   }
-
 }
