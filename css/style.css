@@ -112,6 +112,11 @@ h2 {
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
+.section__subtitle--work {
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
+}
 
 /* header */
 nav {
@@ -240,8 +245,11 @@ nav {
   text-align: center;
 }
 
-.section__subtitle--work{
+.section__subtitle--work {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
-
-} 
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
