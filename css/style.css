@@ -269,3 +269,22 @@ nav {
   transform: scale(1, 2);
   opacity: 0.5;
 }
+
+.footer{
+  background: #111;
+  color: var(--clr-accent);
+  text-align: center;
+  padding: 2.5 0;
+
+}
+
+.footer a {color: inherit;}
+.footer__link:hover,
+.social-list__link:hover{
+  opacity: .7;
+}
+
+
+
+
+
