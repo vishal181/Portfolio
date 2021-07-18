@@ -119,9 +119,18 @@ h2 {
 }
 
 /* header */
+.header{
+  display: flex;
+  justify-content:space-between ;
+
+}
 nav {
   display: none;
 }
+.logo{
+  max-width: 100px;
+}
+
 
 /* intro section */
 
@@ -309,3 +318,4 @@ nav {
   margin: 0 0.5em;
   padding: 0.5em;
 }
+
