@@ -158,18 +158,15 @@ nav {
   color: var(--clr-accent);
 }
 
-.nav-toggle{
-  padding: .5em;
+.nav-toggle {
+  padding: 0.5em;
   background: transparent;
   border: 0;
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   right: 1em;
   top: 1em;
-  z-index: 1000 ;
-
-
-
+  z-index: 1000;
 }
 
 .hamburger {
@@ -199,8 +196,6 @@ nav {
 .hamburger::after {
   bottom: 6px;
 }
-
-
 
 /* intro section */
 
