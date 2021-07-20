@@ -168,6 +168,9 @@ nav {
   top: 1em;
   z-index: 1000;
 }
+.nav-open{
+  background: red;
+}
 
 .hamburger {
   display: block;
